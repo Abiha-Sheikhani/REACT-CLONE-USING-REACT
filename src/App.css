@@ -1,0 +1,15 @@
+.hero{
+  height: 80vh;
+
+}.logo {
+  width: 130px;
+  height: 130px;
+}
+.text{
+  font-weight: 600;
+  font-size: 65px;
+}
+.text1{
+   font-weight: 600;
+  font-size: 40px; 
+}
