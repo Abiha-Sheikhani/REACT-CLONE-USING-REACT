@@ -7,9 +7,35 @@
 }
 .text{
   font-weight: 600;
-  font-size: 65px;
+  font-size: 55px;
+
+}
+/* .heading{
+  width: 600px;
+} */
+ .heading{
+  max-width: 600px;
+  margin: 0 auto;   /* centers the box */
+}
+.text2{
+  color: #595C5F;
+   max-width: 850px;
+  margin: 0 auto; 
+  font-size: x-large;
+}
+span{
+  background-color: #d8d9db;
+  border-radius: 10px;
 }
 .text1{
    font-weight: 600;
   font-size: 40px; 
+}
+.bg{
+ background: #FEFEFF;
+background: linear-gradient(0deg, rgba(254, 254, 255, 1) 0%, rgba(236, 237, 241, 1) 82%);
+}
+.img{
+  height: 400px;
+  width: 860px;
 }
