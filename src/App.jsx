@@ -10,6 +10,7 @@ import Fifth from './components/Fifth'
 import Sixth from './components/Sixth'
 import Seven from './components/seven'
 import Eight from './components/eight'
+import Footer from './components/footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,6 +25,7 @@ function App() {
  <Sixth/>
  <Seven/>
  <Eight/>
+<Footer/>
     </>
   )
 }
