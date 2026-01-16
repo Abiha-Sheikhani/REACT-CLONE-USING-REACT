@@ -5,6 +5,10 @@ import Navbar from './components/navbar'
 import Hero from './components/Hero'
 import Second from './components/secondSec'
 import Third from './components/Third'
+import Fourth from './components/Fourth'
+import Fifth from './components/Fifth'
+import Sixth from './components/Sixth'
+import Seven from './components/seven'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +19,10 @@ function App() {
  <Hero/>
  <Second/>
  <Third/>
+ <Fourth/>
+ <Fifth/>
+ <Sixth/>
+ <Seven/>
 
     </>
   )
