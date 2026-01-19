@@ -22,7 +22,7 @@ React community</h1>
         
     </div>
 </div>
- <footer className="bg-light py-5">
+<footer className="py-5">
       <div className="container">
         <div className="row">
           {/* Logo & Copyright */}

@@ -29,6 +29,7 @@ span{
   border-radius: 10px;
 }
 .text1{
+  color: #0e0d0d;
    font-weight: 600;
   font-size: 40px; 
 }
@@ -350,17 +351,144 @@ footer ul {
     height: auto;
   }
 }
-/* Dark mode */
+/* ================= DARK THEME ================= */
 html.dark body {
-  background: #121212;
-  color: #e5e5e5;
+  background: #0f1115;
+  color: #e5e7eb;
 }
 
+/* Navbar */
 html.dark nav {
-  background: #1c1c1c;
-  color: #e5e5e5;
+  background: #151821;
+  border-bottom: 1px solid #222;
 }
 
-html.dark .navbar-items li {
-  color: #e5e5e5;
+html.dark .navbar-items li,
+html.dark nav,
+html.dark nav svg {
+  color: #e5e7eb;
 }
+
+/* Inputs */
+html.dark input {
+  background: #1c1f2a;
+  color: #fff;
+  border: 1px solid #2a2f3a;
+}
+
+html.dark input::placeholder {
+  color: #9ca3af;
+}
+
+/* Sections / Backgrounds */
+html.dark .bg {
+  background: linear-gradient(180deg, #0f1115 0%, #141821 100%);
+}
+
+html.dark .news-card {
+  background: #151821;
+  border: 1px solid #232837;
+}
+
+html.dark .news-card h5 {
+  color: #f9fafb;
+}
+
+html.dark .news-card p {
+  color: #9ca3af;
+}
+
+/* Text blocks */
+html.dark .text,
+html.dark .text1,
+html.dark .main-heading {
+  color: #f3f4f6;
+}
+
+html.dark .text2,.text1,
+html.dark .desc {
+  color: #b6bac7;
+}
+
+/* Spans / badges */
+html.dark span {
+  background: #232837;
+  color: #e5e7eb;
+}
+
+/* Images (slight dim so they don’t blind in dark mode) */
+html.dark img {
+  filter: brightness(0.9) contrast(1.05);
+}
+
+/* Marquee */
+html.dark .marquee-wrapper {
+  background: #111318;
+}
+
+html.dark .marquee-item img {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+/* Footer */
+html.dark footer {
+  background: #12141a;
+  color: #cfd3dc;
+}
+
+html.dark footer h6 {
+  color: #f3f4f6;
+}
+
+html.dark footer ul li {
+  color: #b6bac7;
+}
+
+html.dark footer ul li:hover {
+  color: #60a5fa;
+}
+
+html.dark footer p.small {
+  color: #9ca3af;
+}
+
+html.dark footer svg {
+  color: #9ca3af;
+}
+
+html.dark footer svg:hover {
+  color: #60a5fa;
+}
+
+/* Buttons if you add any */
+html.dark button {
+  background: #1f2933;
+  border: 1px solid #2d3748;
+}
+
+html.dark button:hover {
+  background: #273449;
+}
+
+/* Scrollbar (optional but clean) */
+html.dark ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #0f1115;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #2a2f3a;
+  border-radius: 6px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #3b4252;
+}
+nav {
+  background: #ffffff;
+  color: #111827;
+}
+
